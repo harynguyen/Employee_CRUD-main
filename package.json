@@ -2,7 +2,7 @@
   "name": "employee_crud",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "email-validator": "^2.0.4",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TuanThai/Employee_CRUD.git"
+    "url": "git+https://github.com/harynguyen/Employee_CRUD-main.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TuanThai/Employee_CRUD/issues"
+    "url": "https://github.com/harynguyen/Employee_CRUD-main.git/issues"
   },
-  "homepage": "https://github.com/TuanThai/Employee_CRUD#readme"
+  "homepage": "https://github.com/harynguyen/Employee_CRUD-main.git#readme"
 }
