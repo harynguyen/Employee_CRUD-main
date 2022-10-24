@@ -1,0 +1,36 @@
+<h3>{{viewTitle}}</h3>
+<form action="/product" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{product._id}}">
+    <div class="form-group">
+        <label> Name</label>
+        <input type="text" class="form-control" name="name" value="{{employee.fullName}}" placeholder="Name of product">
+        <div class="text-danger">
+            {{product.nameError}}
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input type="text" class="form-control" name="description" value="{{product.description}}" placeholder="Description of product">
+        <div class="text-danger">
+            {{product.descriptionError}}
+        </div>
+    </div>
+    <div class="form-row">
+        {{!-- <div class="form-group md-6">
+            <label>Image</label>
+            <input type="file" name="image" placeholder="Choose Image" value="{{product.image}}" class="form-control">
+
+        </div> --}}
+        <div class="form-group md-3">
+            <label>Price</label>
+            <input type="text" name="price" placeholder="price" value="{{product.price}}" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"><i class="fa fa-database"></i>Submit</button>
+        <a href="/product/listProduct" class="btn btn-danger">
+            <i class="fa fa-list-alt"></i>View All
+        </a>
+    </div>
+</form>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <title class="text">ANT Shop</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../../public/css.css/test.css">
+    <link rel="stylesheet" href="/css/style.css">
+    {{!--
+    <link href="/Employee_CRUD-main/public/style.css/sb-admin-2.min.css" rel="stylesheet"> --}}
+    {{!-- <title>Node.js Express MongoDB CRUD</title> --}}
+    <style>
+        .navbar {
+            margin-bottom: 30px;
+            border-radius: 0;
+            text-align: center;
+            background: blue;
+            margin-left: 25%;
+        }
+
+        .jumbotron {
+            margin-bottom: 0;
+        }
+
+        body {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body class="bg-info">
+    {{!-- <h1 class="text">ATB</h1> --}}
+    {{!-- <div class="w3-sidebar w3-bar-block" style="width:20%; background-color: rgb(0, 200, 255);">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
+            <div class="sidebar-brand-icon rotate-n-15">
+                <i class="fas fa-laugh-wink"></i>
+            </div>
+
+            <h1 style="text-align:center;">ANT Shop</h1>
+        </a>
+        <h4>
+            <br>
+            <br>
+            <a href="#" class="w3-bar-item w3-button" style="color: rgb(26, 0, 128);text-align:center; ">Home Page</a>
+            <br>
+            <a href="#" class="w3-bar-item w3-button" style="color: rgb(26, 0, 128);text-align:center; ">Product</a>
+            <br>
+            <a href="#" class="w3-bar-item w3-button" style="color: rgb(26, 0, 128);text-align:center; ">Employee</a>
+        </h4>
+    </div>
+    <div style="margin-left:5% ; margin-right:3%">
+        <div class="row h-100 align-items-center">
+            <div style="margin-left:280px;background-color:white">
+                {{{body}}}
+            </div>
+        </div>
+    </div> --}}
+    <div class="w3-sidebar w3-bar-block" style="width:20%; background-color: rgb(0, 221, 255);">
+        {{!-- <li class="sidebar-brand d-flex align-items-center justify-content-center" href=""> --}}
+            {{!-- <div class="sidebar-brand-icon rotate-n-15">
+                <i class="fas fa-laugh-wink"></i>
+            </div> --}}
+            <h1 style="text-align:center; corlor: rgb(51, 0, 255)">ANT-Toys</h1>
+            {{!--
+        </li> --}}
+        <h4>
+            <br>
+            <br>
+            <a href="#" class="w3-bar-item w3-button" style="color: rgb(26, 0, 128);text-align:center; ">Home Page</a>
+            <hr class="sidebar-divider d-none d-md-block">
+            <div class="text-center d-none d-md-inline"></div>
+            <div><a href="/product/listProduct" class="w3-bar-item w3-button"
+                    style="color: rgb(26, 0, 128);text-align:center; ">Product</a></div>
+            <hr class="sidebar-divider d-none d-md-block">
+            <div class="text-center d-none d-md-inline"></div>
+            <a href="/category/list" class="w3-bar-item w3-button" style="color: rgb(26, 0, 128);text-align:center; ">Category</a>
+
+            <hr class="sidebar-divider d-none d-md-block">
+            <div class="text-center d-none d-md-inline"></div>
+            <a href="/employee/list" class="w3-bar-item w3-button"
+                style="color: rgb(26, 0, 128);text-align:center; ">Employee</a>
+
+
+
+        </h4>
+        <hr class="sidebar-divider d-none d-md-block">
+        <div class="text-center d-none d-md-inline"></div>
+    </div>
+    <div style="margin-left:20%">
+        <div class="w3-container" style="background-color: #fff;">
+            {{!-- <h1>Baby Shop, the first choise for parent </h1> --}}
+        </div>
+        <div class="row h-100 align-items-center">
+            <div style="background-color:rgb(255, 255, 255);padding:20px; right:5px; font-size: 18px">
+                {{{body}}}
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
